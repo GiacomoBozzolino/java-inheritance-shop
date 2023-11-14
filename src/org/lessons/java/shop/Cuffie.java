@@ -7,7 +7,7 @@ public class Cuffie extends Prodotto{
 
 
 
-	public Cuffie(String nome, String descrizione, float prezzo, boolean cable, String color) {
+	public Cuffie(String nome, String descrizione, double prezzo, boolean cable, String color) {
 		super(nome, descrizione, prezzo);
 		
 		setCable(cable);

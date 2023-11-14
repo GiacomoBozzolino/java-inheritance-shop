@@ -7,12 +7,12 @@ public class Prodotto {
 	private int codice;
 	private String nome;
 	private String descrizione;
-	private float prezzo;
+	private double prezzo;
 	private int iva;
 	
 	
 	//creo il costruttore
-	public Prodotto( String nome, String descrizione, float prezzo) { 
+	public Prodotto( String nome, String descrizione, double prezzo) { 
 		
 		 setNome(nome);
 		 setDescrizione(descrizione);
@@ -52,7 +52,7 @@ public class Prodotto {
         return prezzo;
     }
 
-    public void setPrezzo(float prezzo) {
+    public void setPrezzo(double prezzo) {
         this.prezzo = prezzo;
     }
 
