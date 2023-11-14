@@ -12,7 +12,7 @@ public class Prodotto {
 	
 	
 	//creo il costruttore
-	public Prodotto( String nome, String descrizione, float prezzo, int iva) { 
+	public Prodotto( String nome, String descrizione, float prezzo) { 
 		
 		 setNome(nome);
 		 setDescrizione(descrizione);
